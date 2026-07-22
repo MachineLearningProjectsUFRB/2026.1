@@ -178,23 +178,4 @@ Avaliação comparativa de **LLMs locais** (via Ollama) em uma tarefa de **RAG**
 
 ---
 
-## Estrutura do repositório
 
-```
-aprendizado de maquina/
-├── README.md                                  (este arquivo)
-├── CNN_Deforestation_v4.ipynb                 → Trabalho 1
-├── Detecção de Desmatamento.pdf               → Slides do Trabalho 1
-├── regressao_gasolina.ipynb                   → Trabalho 2
-├── Previsão de Preços de gasolina.pdf         → Slides do Trabalho 2
-├── Classificação de Doenças em plantas.pdf    → Slides do Trabalho 3
-├── plantdoc/
-│   ├── plantdoc_classificacaoVersion2.ipynb   → Trabalho 3
-│   ├── plantdoc_clusterizacao_correto.ipynb   → Trabalho 4
-│   ├── clusterizacao_resultados/              → Modelos/CSV do Trabalho 4
-│   └── (imagens de resultados, dataset PlantDoc em formato YOLO)
-└── LLM/
-    ├── README.md                              → Detalhes do Trabalho 5
-    ├── llm_aula1_RAG.ipynb, llm_metrics.ipynb, atividade.py, metrics.py
-    └── Regulamento_Estagio_UFRB.pdf           → Base usada no RAG
-```
